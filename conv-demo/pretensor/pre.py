@@ -10,3 +10,4 @@ with tf.Session as sess:
     print(sess.run(tf.get_variable("w")))
 ##############
 print("???????????????????")
+print("!!!!!!!!!!!!!!!!!!!!!success!!!!!!!!!!!!!!!!!!!")
