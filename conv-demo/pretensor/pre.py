@@ -8,3 +8,4 @@ with tf.Session as sess:
     tf.global_variables_initializer().run()
     # fetch = y.eval(feed_dict={x:3.0})
     print(sess.run(tf.get_variable("w")))
+##############
