@@ -104,5 +104,4 @@ def test():
     x = torch.randn(1,3,32,32)
     y = net(x)
     print(y.size())
-
-test()
+#test()
